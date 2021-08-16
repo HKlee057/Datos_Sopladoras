@@ -1,0 +1,818 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Air_Modulation</class>
+ <widget class="QMainWindow" name="Air_Modulation">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>732</width>
+    <height>451</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Air_Modulation</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="8" column="0">
+     <widget class="QLabel" name="label_7">
+      <property name="font">
+       <font>
+        <pointsize>13</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>SBO 20</string>
+      </property>
+     </widget>
+    </item>
+    <item row="8" column="1">
+     <widget class="QComboBox" name="cmbScene20">
+      <item>
+       <property name="text">
+        <string>Activo</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Paro Programado</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Mantenimiento</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Silos Llenos</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item row="7" column="1">
+     <widget class="QComboBox" name="cmbScene16">
+      <item>
+       <property name="text">
+        <string>Activo</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Paro Programado</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Mantenimiento</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Silos Llenos</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item row="8" column="2">
+     <widget class="QComboBox" name="cmbPres20">
+      <item>
+       <property name="text">
+        <string>0.355</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>0.400</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>0.500</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>0.600</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>0.750</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>1.000</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>1.500</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>2.000</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>2.500</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>3.000</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>3.300</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item row="7" column="2">
+     <widget class="QComboBox" name="cmbPres16">
+      <item>
+       <property name="text">
+        <string>0.355</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>0.400</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>0.500</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>0.600</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>0.750</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>1.000</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>1.500</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>2.000</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>2.500</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>3.000</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>3.300</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item row="7" column="5">
+     <widget class="QComboBox" name="cmbSceneCE3">
+      <item>
+       <property name="text">
+        <string>Activo</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Fuera de Servicio</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Mantenimiento</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Standby</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item row="8" column="5">
+     <widget class="QComboBox" name="cmbSceneCE46">
+      <item>
+       <property name="text">
+        <string>Activo</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Fuera de Servicio</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Mantenimiento</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Standby</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item row="9" column="0">
+     <widget class="QLabel" name="label_8">
+      <property name="font">
+       <font>
+        <pointsize>13</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>SBO 10</string>
+      </property>
+     </widget>
+    </item>
+    <item row="9" column="2">
+     <widget class="QComboBox" name="cmbPres10">
+      <item>
+       <property name="text">
+        <string>0.355</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>0.400</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>0.500</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>0.600</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>0.750</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>1.000</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>1.500</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>2.000</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>2.500</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>3.000</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>3.300</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item row="9" column="5">
+     <widget class="QComboBox" name="cmbSceneSIAD">
+      <item>
+       <property name="text">
+        <string>Activo</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Fuera de Servicio</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Mantenimiento</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Standby</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item row="9" column="1">
+     <widget class="QComboBox" name="cmbScene10">
+      <item>
+       <property name="text">
+        <string>Activo</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Paro Programado</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Mantenimiento</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Silos Llenos</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item row="3" column="4">
+     <widget class="QLabel" name="label_12">
+      <property name="font">
+       <font>
+        <pointsize>13</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Compresores</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0" colspan="2">
+     <widget class="QLabel" name="label_2">
+      <property name="font">
+       <font>
+        <pointsize>13</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Estado de conexión:</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="0">
+     <widget class="QLabel" name="label">
+      <property name="font">
+       <font>
+        <pointsize>13</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Direccion IP:</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="2">
+     <widget class="QLabel" name="lblEtiqueta">
+      <property name="font">
+       <font>
+        <pointsize>13</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Esperando...</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1">
+     <widget class="QPushButton" name="btnDesactiva">
+      <property name="text">
+       <string>Desconectar</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="0">
+     <widget class="QPushButton" name="btnConectar">
+      <property name="text">
+       <string>Conectar</string>
+      </property>
+     </widget>
+    </item>
+    <item row="10" column="1" colspan="5">
+     <widget class="QPushButton" name="btnSendData">
+      <property name="text">
+       <string>Enviar</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="2" colspan="2">
+     <widget class="QLineEdit" name="txtbIP">
+      <property name="font">
+       <font>
+        <pointsize>13</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>192.168.0.0</string>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="0">
+     <widget class="QLabel" name="label_6">
+      <property name="font">
+       <font>
+        <pointsize>13</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>SBO 16</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="1">
+     <widget class="QComboBox" name="cmbScene04">
+      <item>
+       <property name="text">
+        <string>Activo</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Paro Programado</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Mantenimiento</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Silos Llenos</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item row="5" column="2">
+     <widget class="QComboBox" name="cmbPres04">
+      <item>
+       <property name="text">
+        <string>0.355</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>0.400</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>0.500</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>0.600</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>0.750</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>1.000</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>1.500</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>2.000</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>2.500</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>3.000</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>3.300</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item row="4" column="1">
+     <widget class="QLabel" name="label_9">
+      <property name="font">
+       <font>
+        <pointsize>13</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Escenario</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="5">
+     <widget class="QComboBox" name="cmbSceneCE1">
+      <item>
+       <property name="text">
+        <string>Activo</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Fuera de Servicio</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Mantenimiento</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Standby</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item row="6" column="0">
+     <widget class="QLabel" name="label_5">
+      <property name="font">
+       <font>
+        <pointsize>13</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>SBO 12</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="1">
+     <widget class="QComboBox" name="cmbScene12">
+      <item>
+       <property name="text">
+        <string>Activo</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Paro Programado</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Mantenimiento</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Silos Llenos</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item row="4" column="5">
+     <widget class="QLabel" name="label_11">
+      <property name="font">
+       <font>
+        <pointsize>13</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Escenario</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="2">
+     <widget class="QComboBox" name="cmbPres12">
+      <item>
+       <property name="text">
+        <string>0.355</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>0.400</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>0.500</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>0.600</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>0.750</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>1.000</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>1.500</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>2.000</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>2.500</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>3.000</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>3.300</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item row="5" column="0">
+     <widget class="QLabel" name="label_4">
+      <property name="font">
+       <font>
+        <pointsize>13</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>SBO 04</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="5">
+     <widget class="QComboBox" name="cmbSceneCE2">
+      <item>
+       <property name="text">
+        <string>Activo</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Fuera de Servicio</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Mantenimiento</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Standby</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item row="4" column="2" colspan="2">
+     <widget class="QLabel" name="label_10">
+      <property name="font">
+       <font>
+        <pointsize>13</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Presentación</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="4">
+     <widget class="QLabel" name="label_15">
+      <property name="font">
+       <font>
+        <pointsize>13</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>CE 680 B</string>
+      </property>
+     </widget>
+    </item>
+    <item row="8" column="4">
+     <widget class="QLabel" name="label_17">
+      <property name="font">
+       <font>
+        <pointsize>13</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>CE 46 S</string>
+      </property>
+     </widget>
+    </item>
+    <item row="9" column="4">
+     <widget class="QLabel" name="label_13">
+      <property name="font">
+       <font>
+        <pointsize>13</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>SIAD</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="4">
+     <widget class="QLabel" name="label_16">
+      <property name="font">
+       <font>
+        <pointsize>13</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>CE 680 B</string>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="4">
+     <widget class="QLabel" name="label_14">
+      <property name="font">
+       <font>
+        <pointsize>13</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>CE 680 B</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="0">
+     <widget class="QLabel" name="label_3">
+      <property name="font">
+       <font>
+        <pointsize>13</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Sopladoras</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>732</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
